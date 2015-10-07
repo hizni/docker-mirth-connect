@@ -1,12 +1,14 @@
 Build the image and run with the following command:
 
-     docker run -p 80:80 -p 443:443 -p 9661:9661 IMAGE_NAME
+     docker run -p 80:80 -p 443:443 -p 9600-9700:9600-9700 IMAGE_NAME
 
 You can launch Mirth Connect Administrator by visiting DOCKER_IP:80
 
 The default username and password are admin/admin
 
 You should see the test channel deployed and running on the dashboard view.
+
+A port range between 9600 - 9700 has been exposed for development of channels in this Mirth Connect environment.
 
 To test that this is working, you'll need a tool like [HL7 Inspector](http://sourceforge.net/projects/hl7inspector/)
 
