@@ -26,7 +26,7 @@ RUN wget http://downloads.mirthcorp.com/connect/3.3.0.7801.b1804/mirthconnect-3.
 ADD templates/etc /etc
 ADD templates/mirthconnect /usr/local/mirthconnect
 
-#Exposing ports that will be used by container; 80, 443, 9600 - 9700 (defining a port range to be used by development channels)
-EXPOSE 3000 9600-9700 80 443
+#Exposing ports that will be used by container; 80, 443, 9661
+EXPOSE 3000 9661 80 443
 
 CMD ./mirthconnect-wrapper.sh

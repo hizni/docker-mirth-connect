@@ -8,8 +8,6 @@ The default username and password are admin/admin
 
 You should see the test channel deployed and running on the dashboard view.
 
-A port range between 9600 - 9700 has been exposed for development of channels in this Mirth Connect environment.
-
 To test that this is working, you'll need a tool like [HL7 Inspector](http://sourceforge.net/projects/hl7inspector/)
 
 Download some [sample HL7 messages](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=228)
